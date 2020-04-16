@@ -3,21 +3,22 @@ def using_include(array, element)
 end
 
 def using_sort(array)
-  array.sort!
+  new_array = array.sort
+  return new_array
 end
 
 def using_reverse(array)
-  array.reverse!
+  return array.reverse
 end
 
 def using_first(array)
-  array.first
+  return array.first
 end
 
 def using_last(array)
-  array.last
+  return array.last
 end
 
 def using_size(array)
-  array.size
+  return array.size
 end
